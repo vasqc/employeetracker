@@ -1,0 +1,23 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasqc/employeetracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasqc/employeetracker/issues"
+  },
+  "homepage": "https://github.com/vasqc/employeetracker#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
