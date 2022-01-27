@@ -5,7 +5,6 @@ require("console.table");
 
 init();
 
-// Display logo text, load main prompts
 function init() {
   const logoText = logo({ name: "Employee Manager" }).render();
 
@@ -70,10 +69,6 @@ function loadMainPrompts() {
           value: "ADD_DEPARTMENT",
         },
         {
-          name: "Remove Department",
-          value: "REMOVE_DEPARTMENT",
-        },
-        {
           name: "View Total Utilized Budget By Department",
           value: "VIEW_UTILIZED_BUDGET_BY_DEPARTMENT",
         },
@@ -85,7 +80,6 @@ function loadMainPrompts() {
     },
   ]).then((res) => {
     let choice = res.choice;
-    // Call the appropriate function depending on what the user chose
     switch (choice) {
       case "VIEW_EMPLOYEES":
         viewEmployees();
@@ -113,9 +107,6 @@ function loadMainPrompts() {
         break;
       case "ADD_DEPARTMENT":
         addDepartment();
-        break;
-      case "REMOVE_DEPARTMENT":
-        removeDepartment();
         break;
       case "VIEW_UTILIZED_BUDGET_BY_DEPARTMENT":
         viewUtilizedBudgetByDepartment();
