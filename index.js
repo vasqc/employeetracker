@@ -1,6 +1,17 @@
 const inquirer = require("inquirer");
 const mysql2 = require("mysql2");
+const logo = require("asciiart-logo");
+//const db = require("./db");
 require("console.table");
+
+init();
+
+function init() {
+  const logoText = logo({ name: "Employee Manager" }).render();
+  console.log(logoText);
+
+  //mainPrompt();
+}
 
 const connection = mysql2.createConnection({
   host: "localhost",
@@ -40,7 +51,6 @@ const mainPrompt = () => {
           break;
         case "view all employees":
           viewEmployees();
-          // mainPrompt();
           break;
         case "add a department":
           addDepartment();
@@ -98,7 +108,6 @@ const viewEmployees = () => {
 };
 
 function addDepartment() {
-  // inquirer prompt
   return inquirer
     .prompt([
       {
@@ -203,12 +212,7 @@ function addEmployee() {
         type: "list",
         name: "manager_id",
         message: "What is the name of the manager for this employee?",
-        choices: [
-          "Tom Nook",
-          "Ana Saidac",
-          "Christian Vasquez",
-          "Timmy Nook",
-        ],
+        choices: ["Tom Nook", "Ana Saidac", "Christian Vasquez", "Timmy Nook"],
       },
     ])
     .then((res) => {
@@ -251,11 +255,11 @@ function addEmployee() {
         },
         {
           name: "Christian Vasquez",
-          id: 3
+          id: 3,
         },
         {
           name: "Timmy Nook",
-          id: 4
+          id: 4,
         },
       ];
 
