@@ -204,10 +204,10 @@ function addEmployee() {
         name: "manager_id",
         message: "What is the name of the manager for this employee?",
         choices: [
-          "Nick Perel",
-          "Matt Delacruz",
-          "Riley Harris",
-          "Amy Suchidolski",
+          "Tom Nook",
+          "Ana Saidac",
+          "Christian Vasquez",
+          "Timmy Nook",
         ],
       },
     ])
@@ -246,32 +246,16 @@ function addEmployee() {
           id: 1,
         },
         {
-          name: "Agnes Smith",
+          name: "Ana Saidac",
           id: 2,
         },
         {
-          name: "Gigi Saidac",
-          id: 3,
-        },
-        {
-          name: "Penelope Saidac",
-          id: 4,
-        },
-        {
           name: "Christian Vasquez",
-          id: 5,
-        },
-        {
-          name: "Ana Saidac",
-          id: 6,
-        },
-        {
-          name: "Diana Saidac",
-          id: 7,
+          id: 3
         },
         {
           name: "Timmy Nook",
-          id: 8,
+          id: 4
         },
       ];
 
@@ -292,7 +276,6 @@ function addEmployee() {
 }
 
 const updateRole = (roleId, employeeId) => {
-  // inquirer prompt
   inquirer
     .prompt([
       {
