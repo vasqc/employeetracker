@@ -9,6 +9,6 @@ Start the application by cloning the repository and then typing 'npm i' in the c
 
 Walkthrough Video:
 
-
+https://drive.google.com/file/d/1zcZGLDGfLE7oevcZFqM0jrS16OsrRvWV/view
 
 Link to GitHub:https://github.com/vasqc/employeetracker
