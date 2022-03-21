@@ -1,10 +1,10 @@
 # employeetracker
-This week I was given no stater code and was tasked with creating an application that would allow business owners to be able to view and manage the departments, roles, and employees in their company so that they will be better prepared to organize and plan their business. Upon starting up the application, the user should be presented with a prompt that asks them what they would like to do, and the user is provided with the choice to view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
+For this weeks challenge, no stater code was given. The challenge was to make an app for users that would need to be able to see, update, and change departments, roles, and employees as they see fit, in order to maintain correct and proper personnel inventory.  The user is able to view all departments, roles, employees. Also the ability to add departments, roles, and employees as they see fit. Also, will give the oppurtunity to update roles and departments as changes are always inevitable..
 
 Installation
 mysql2, inquirer, and console.table are required to be installed to get this application to work
 
-Start the application by cloning the repository and then typing 'npm i' in the command line in order to install all dependencies to get this application to work. Then, just type 'node index' into the command line and hit enter to start up the application and follow the prompts and choices.
+Please clone the repo and then in the command line type 'npm i', in order to install all dependencies to get this application to work. Then, just type '$ npm run start' into the command line and the prompts will populate and instuctions on how to chose the correct method will be explained once it is running.
 
 Walkthrough Video
 
