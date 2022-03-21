@@ -6,7 +6,7 @@ mysql2, inquirer, and console.table are required to be installed to get this app
 
 Please clone the repo and then in the command line type 'npm i', in order to install all dependencies to get this application to work. Then, just type '$ npm run start' into the command line and the prompts will populate and instuctions on how to chose the correct method will be explained once it is running.
 
-Walkthrough Video
-
+Walkthrough Video:
+https://drive.google.com/file/d/1zcZGLDGfLE7oevcZFqM0jrS16OsrRvWV/view
 
 Link to GitHub:https://github.com/vasqc/employeetracker
